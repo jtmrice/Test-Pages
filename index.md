@@ -1,8 +1,8 @@
 ---
-title: IEPD Repository
+title: Test Pages
 layout: "default"
 ---
-# IEPD Repository
+# Test Pages
 
 
 
@@ -18,7 +18,7 @@ layout: "default"
       </span>
     </div>
     <div class="media-body">
-      <h4 class="media-heading" style="margin-top:15px"><a href="https://github.com/jtmrice/Template-IEPD/">Template IEPD</a></h4>
+      <h4 class="media-heading" style="margin-top:15px"><a href="#">Page 1</a></h4>
     </div>
   </div>
   <div class="media">
@@ -29,7 +29,7 @@ layout: "default"
       </span>
     </div>
     <div class="media-body">
-      <h4 class="media-heading" style="margin-top:15px"><a href="#">Conformance Validation</a></h4>
+      <h4 class="media-heading" style="margin-top:15px"><a href="#">Page 2</a></h4>
     </div>
   </div>
 </div>
@@ -42,7 +42,7 @@ layout: "default"
       </span>
     </div>
     <div class="media-body">
-      <h4 class="media-heading" style="margin-top:15px"><a href="#">Search for IEPDs</a></h4>
+      <h4 class="media-heading" style="margin-top:15px"><a href="#">Page 3</a></h4>
     </div>
   </div>
 </div>
