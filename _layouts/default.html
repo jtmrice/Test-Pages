@@ -1,14 +1,45 @@
-<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="utf-8">
-    <title>My Jekyll Site</title>
+
+  <head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>{{ title }}</title>
+
+  <script src="//use.typekit.net/cqz0aba.js"></script>
+  <script>try{Typekit.load();}catch(e){}</script>
+
+  <link rel="stylesheet" href="/vendor/Font-Awesome/css/font-awesome.min.css">
+  <link rel="stylesheet" href="/assets/css/main.css">
+  <link rel="canonical" href="/developer-network/">
 </head>
-<body>
-
-    <!-- This will be replaced with your content -->
-    {{ content }}
 
 
-</body>
+
+  <body>
+    <div id="page-wrap">
+      <nav class="navbar navbar-default navbar-fixed-top header-nav" role="navigation">
+        {{ header }}
+      </nav>
+
+      <div class="container">
+        <div class="row">
+          <div class="col-md-9 col-md-push-3">
+            <ol class="breadcrumb">
+              <li><a href="/">Home</a></li>
+              <li class="active">NIEM Developer Network</li>
+            </ol>
+            {{ content }}
+          </div>
+        </div>
+
+      <div class="col-md-3 col-md-pull-9">
+        {{ sidebar }}
+      </div>
+      <div class="navbar navbar-default footer-nav" role="navigation">
+        {{ footer }}
+      </div>
+    </div>
+  </body>
 </html>
